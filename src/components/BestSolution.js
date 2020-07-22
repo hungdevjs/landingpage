@@ -12,17 +12,17 @@ const listBestSolution = [
 ]
 
 export default () => <div className="d-flex flex-column align-items-center py-5" style={{ backgroundColor: "#2f55d4" }}>
-    <p className="text-center text-white" style={{ fontWeight: 700, fontSize: "1.7rem" }}>
+    <p className="text-center text-white px-3" style={{ fontWeight: 700, fontSize: "1.7rem" }}>
         Best Solutions for your Business
     </p>
     <p
-        className="text-center mb-4"
+        className="text-center mb-4 px-3"
         style={{ fontWeight: 600, fontSize: "1.1rem", color: "#bbb" }}
     >
         Your company will never have to think about storage, we will do it for you
     </p>
 
-    <Row className="w-100 pt-5">
+    <Row className="w-100 pt-3">
         <Col md={3}>
             <BestSolutionItem item={listBestSolution[0]} />
         </Col>

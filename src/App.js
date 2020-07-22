@@ -10,6 +10,8 @@ import Services from "./components/Services"
 import Clients from "./components/Clients"
 import BestSolution from "./components/BestSolution"
 import Pricing from "./components/Pricing"
+import Subcribe from "./components/Subcribe"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Clients />
         <BestSolution />
         <Pricing />
+        <Subcribe />
+        <Footer />
       </div>
     </div>
   );

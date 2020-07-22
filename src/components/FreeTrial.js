@@ -10,8 +10,9 @@ const InfoContainer = styled.div`
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    background-color: #fff;
     box-shadow: 0 8px 35px 0 rgba(73, 80, 87, .2);
-    @media (max-width: 768px) {
+    @media (max-width: 990px) {
         width: 100%
     }
 `

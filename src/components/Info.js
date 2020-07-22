@@ -4,7 +4,7 @@ import { Row, Col } from "reactstrap"
 import Button from "./Button"
 import FreeTrial from "./FreeTrial"
 
-export default () => <div style={{ background: "url('http://invoza.react.themesdesign.in/static/media/bg-1.a6007911.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
+export default () => <div style={{ background: "url('/bg.png')", backgroundSize: "cover", backgroundPosition: "center" }}>
     <div className="container" id="home">
         <Row className="p-5">
             <Col md={6} className="d-flex flex-column align-items-center justify-content-center" style={{ marginBottom: "48px" }}>

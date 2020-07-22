@@ -8,6 +8,8 @@ import Header from "./components/Header"
 import Info from "./components/Info"
 import Services from "./components/Services"
 import Clients from "./components/Clients"
+import BestSolution from "./components/BestSolution"
+import Pricing from "./components/Pricing"
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Info />
         <Services />
         <Clients />
+        <BestSolution />
+        <Pricing />
       </div>
     </div>
   );

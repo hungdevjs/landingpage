@@ -42,9 +42,9 @@ export default () => {
 
     return (
         <HeaderContainer>
-            <Navbar expand="md" color="light" light>
+            <Navbar expand="md" color="light" light style={{ width: "100%" }}>
                 <NavbarBrand href="/">
-                    <img src="/logo.png" alt="logo" width="114px" />
+                    Infinity Cloud
                 </NavbarBrand>
                 <NavbarToggler onClick={toggle} size="sm" />
                 <Collapse isOpen={isOpen} navbar>

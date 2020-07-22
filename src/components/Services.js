@@ -3,6 +3,7 @@ import { Row, Col } from "reactstrap"
 
 import ServiceItem from "./ServiceItem"
 import Button from "./Button"
+import Title from "./Title"
 
 const services = [
     { name: "No limit", description: "Our cloud storage is no limit, you can upload anything you want", icon: "fas fa-infinity" },
@@ -13,9 +14,12 @@ const services = [
     { name: "Better sercurity", description: "Never remove your files without your permission", icon: "fas fa-lock" }
 ]
 
-export default () => <div className="p-4" style={{ backgroundColor: "#f8fafe" }} id="services">
-    <p className="text-center" style={{ color: "#2f55d4", fontWeight: 700 }}>SERVICES</p>
-    <p className="text-center font-weight-bold" style={{ fontSize: "1.5rem", marginBottom: "48px" }}>Services We Provide</p>
+export default () => <div className="px-4 py-5" style={{ backgroundColor: "#f8fafe" }} id="services">
+    <Title
+        title="SERVICES"
+        detail="Services We Provide"
+        description="We provide you a good solution for storage"
+    />
 
     <Row className="mb-4">
         {services.map((item, index) => <Col md={6} lg={4} key={index}>

@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
-  text-align: center;
+  font-family: 'Rubik', sans-serif
 }
 
 .App-logo {

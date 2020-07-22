@@ -13,7 +13,7 @@ const services = [
     { name: "Better sercurity", description: "Never remove your files without your permission", icon: "fas fa-lock" }
 ]
 
-export default () => <div className="p-4 mb-4" style={{ backgroundColor: "#f8fafe" }} id="services">
+export default () => <div className="p-4" style={{ backgroundColor: "#f8fafe" }} id="services">
     <p className="text-center" style={{ color: "#2f55d4", fontWeight: 700 }}>SERVICES</p>
     <p className="text-center font-weight-bold" style={{ fontSize: "1.5rem", marginBottom: "48px" }}>Services We Provide</p>
 
